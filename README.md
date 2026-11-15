@@ -1,6 +1,6 @@
-# 🚀 Full-Stack Проект: Telegram Bot + Python API (FastAPI) + React
+# 🚀 Full-Stack Проект: Python API (FastAPI) + React
 
-Единая экосистема, развернутая на сервере Hetzner (CX23), состоящая из трех независимых сервисов. Бэкенд построен по профессиональной слоистой архитектуре с использованием ORM Prisma.
+Единая экосистема, развернутая на сервере Hetzner (CX23), состоящая из независимых сервисов. Бэкенд построен по профессиональной слоистой архитектуре с использованием ORM Prisma.
 
 ## 🏗 Архитектура и структура папок
 
@@ -8,10 +8,6 @@
 
 ```text
 workspace/
- ├── telegram-bot/           # 🤖 Node.js + TS (Telegram бот)
- │    ├── node_modules/
- │    └── package.json
- │
  ├── python-backend/         # 🐍 Python + FastAPI + Prisma (API для веба)
  │    ├── dev.db             # База данных SQLite
  │    ├── venv/              # Виртуальное окружение Python
