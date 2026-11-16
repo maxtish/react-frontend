@@ -1,0 +1,33 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+@media (max-width: 600px) {
+  .container {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 12px;
+  }
+}
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #111827;
+}
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.emptyState {
+  text-align: center;
+  color: #6b7280;
+  padding: 24px 0;
+}
